@@ -1,0 +1,16 @@
+.btn-create {
+  border: 1px soid rgb(255, 255, 255);
+  background-color: rgb(111, 0, 255);
+  color: whitesmoke;
+  padding: 4px;
+  cursor: pointer;
+  transition: 1s;
+}
+.btn-create:hover {
+  background-color: brown;
+  transition: 1s;
+}
+.input-field-wrapper > input {
+  height: 20px;
+  text-align: center;
+}
