@@ -1,0 +1,19 @@
+.control-block-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.control-block-wrapper > div {
+  margin: 10px;
+  border: 1px solid rgb(189, 123, 1);
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(25, 124, 0);
+  width: 100px;
+  transition: 1s;
+}
+.control-block-wrapper > div:hover {
+  background-color: rgb(255, 153, 0);
+  color: black;
+  transition: 1s;
+  width: 130px;
+}
